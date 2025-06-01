@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
 
@@ -13,10 +14,12 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
         
         <div className='flex justify-between items-center h-16'>
         
-            <a href="#home" className='font-mono text-xl font-bold text-white'>
+            <a href="#home" className='font-mono flex text-xl font-bold text-white'>
                 {" "}
                 Satyam<span className='text-blue-500'>.tech</span>{" "}
+                <a href="https://github.com/Satyamsahugr8/sorting-visualizer"><FaExternalLinkAlt className="ml-2 mt-2 text-sm"/></a>
             </a>
+            
 
             <div 
                 className='w-7 h-5 relative cursor-pointer z-40 md:hidden' 
@@ -48,6 +51,13 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
                     Contact
                     {" "}
                 </a>
+                <a name="resume" href="https://drive.google.com/file/d/1dkKIB5y4K1y2qIGoN7ngcmodW-l_9W-n/view?usp=sharing" 
+                className="text-gray-300 hover:text-white transition-colors flex gap-1">
+                    {" "}
+                    Resume
+                    <FaExternalLinkAlt className="text-xs mt-1"/>
+                    {" "}
+                    </a>
 
                 
             </div>

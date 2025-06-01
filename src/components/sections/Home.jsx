@@ -8,6 +8,7 @@ const Home = () => {
         
         <h6 className='text-5xl md:text-6xl mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent leading-right'>
           Hi, I'm Satyam Sahu
+          
         </h6>
 
         <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
