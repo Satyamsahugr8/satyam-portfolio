@@ -13,6 +13,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               
               <h3 className="text-xl font-bold mb-2">Sorting Visualizer</h3>
@@ -39,14 +40,11 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-            <div
-              className="
-              glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:border-blue-500/30
-              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
-              transition-all
-            "
-            >
+
+            <div className="glass p-6 rounded-xl border border-white/10 
+                            hover:-translate-y-1 hover:border-blue-500/30
+                            hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+                            transition-all">
               <h3 className="text-xl font-bold mb-2">Movies Booking Application</h3>
               <p className="text-gray-400 mb-4 hover:text-white">
                 Full-stack e-commerce with modern UI, secure payment
@@ -159,6 +157,8 @@ const Projects = () => {
             </div> */}
 
           </div>
+
+          
         </div>
       </RevealOnScroll>
     </section>
