@@ -17,7 +17,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             <a href="#home" className='font-mono flex text-xl font-bold text-white'>
                 {" "}
                 Satyam<span className='text-blue-500'>.tech</span>{" "}
-                <a href="https://github.com/Satyamsahugr8/sorting-visualizer"><FaExternalLinkAlt className="ml-2 mt-2 text-sm"/></a>
+                <a href="https://github.com/Satyamsahugr8/satyam-portfolio"><FaExternalLinkAlt className="ml-2 mt-2 text-sm"/></a>
             </a>
             
 
