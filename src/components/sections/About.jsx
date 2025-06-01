@@ -10,7 +10,7 @@ const About = () => {
     "Javascipt",
   ];
 
-  const backendSkills = ["Java", "Spring Boot", "AWS", "PostgreSQL", "Micro Services", "Messenging"];
+  const backendSkills = ["Java", "Spring Boot", "AWS", "PostgreSQL", "MicroServices", "Messaging Communication"];
 
   const devopsSkills = ["Jenkins", "CI/CD", "AWS", "Kubernetes", "Heml Chart"];
 

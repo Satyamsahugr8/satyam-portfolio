@@ -20,7 +20,7 @@ const Projects = () => {
                 An interactive application that visually demonstrates and analyses various sorting algorithms through animations.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "HTML", "CSS", "TailwindCSS","DataStructure", "Docker"].map((tech, key) => (
+                {["React", "HTML", "CSS", "TailwindCSS","Data Structure", "Docker"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -53,7 +53,7 @@ const Projects = () => {
                 integration, and customizable product inventory.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Java", "SpringBoot", "D3.js", "Flask"].map((tech, key) => (
+                {["Java", "Spring Boot", "Microservices", "React", "PostgreSQL", "Messaging Communication", "J-unit", "Docker"].map((tech, key) => (
                   <span
                     key={key}
                     className="
