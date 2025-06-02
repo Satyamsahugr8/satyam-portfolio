@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -43,6 +44,14 @@ const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                     ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
         Contact
+      </a>
+      <a
+        href="https://drive.google.com/file/d/1dkKIB5y4K1y2qIGoN7ngcmodW-l_9W-n/view?usp=sharing"
+        onClick={() => setMenuOpen(false)}
+        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                    ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"} flex`}>
+        Resume
+        <FaExternalLinkAlt className="text-xs mt-2 ml-2"/>
       </a>
 
     </div>

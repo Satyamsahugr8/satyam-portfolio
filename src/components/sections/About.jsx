@@ -28,7 +28,7 @@ const About = () => {
             {" "}
             About Me
           </h2>
-          <a name="resume" href="https://drive.google.com/file/d/1dkKIB5y4K1y2qIGoN7ngcmodW-l_9W-n/view?usp=sharing" className="flex gap-2 text-xs"><FaExternalLinkAlt className="ml-2 mt-2"/>(Resume)</a>
+          {/* <a name="resume" href="https://drive.google.com/file/d/1dkKIB5y4K1y2qIGoN7ngcmodW-l_9W-n/view?usp=sharing" className="flex gap-2 text-xs"><FaExternalLinkAlt className="ml-2 mt-2"/>(Resume)</a> */}
           </div>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
